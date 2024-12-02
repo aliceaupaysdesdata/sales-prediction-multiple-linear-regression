@@ -1,12 +1,14 @@
 # sales_prediction_multiple_linear_regression
-Ce projet, intité "Regression House Sales", est un exercice d'école conçu pour développer une compréhension approfondie de l'exploration de bases de données et de la prédiction à l'aide de la régression linéaire multiple. L'objectif principal est de prédire les prix des maisons à partir d'un jeu de données étendu. 
+Ce projet, intitulé "Regression House Sales", est un exercice réalisé dans le cadre de la formation "Data analyst" suivie à la Wild Code School. L'exercice a été conçu pour développer une compréhension approfondie de l'exploration de bases de données et de la prédiction à l'aide de la régression linéaire multiple. L'objectif principal était de prédire les prix des maisons à partir d'un jeu de données. 
 
 # Objectifs pédagogiques
 
+A partir d'un notebook vierge : 
 Maîtriser la manipulation et l'exploration de données avec Python (via pandas, numpy, et seaborn).
 Identifier et corriger les problèmes dans les données (valeurs manquantes, doublons, types de colonnes incorrects).
 Comprendre les relations entre variables (corrélations, distributions, et outliers).
 Mettre en place une modélisation prédictive à l'aide de la régression linéaire multiple.
+
 
 # Détails du jeu de données
 
@@ -26,7 +28,7 @@ condition et grade : Qualité de la maison.
 
 Inspection initiale : Dimensions, types de données, et valeurs manquantes.
 
-Visualisations : Histogrammes, boxplots, et matrice de corrélation.
+Visualisations : Histogrammes, boxplots, scatterplots et matrice de corrélation.
 
 Nettoyage des données : Gestion des doublons, traitement des valeurs manquantes, et conversion des types incorrects.
 
@@ -66,15 +68,13 @@ Suivez les étapes dans le notebook pour exécuter les analyses et le modèle.
 
 # Structure du dépôt
 
-kc_house_data.csv : Jeu de données source.
-
 Regression House sales - Alice GONTIER.ipynb : Notebook Jupyter contenant les analyses et modèles.
 
 README.md : Documentation du projet.
 
 # Résultats
 
-Le modèle de régression linéaire multiple présente une bonne capacité de prédiction avec des métriques d'évaluation acceptables pour un premier modèle (R², RMSE). Les observations sur la qualité des données et les caractéristiques influentes permettent d'envisager des modèles plus avancés pour des prédictions encore plus précises.
+Le modèle de régression linéaire multiple présente une bonne robustesse entre l'entrainement et le test. La qualité des prédictions reste moyennement performante avec des métriques d'évaluation acceptables pour un premier modèle. Les observations sur la qualité des données et les caractéristiques influentes permettent d'envisager des modèles plus avancés pour des prédictions encore plus précises.
 
 # Auteur
 
